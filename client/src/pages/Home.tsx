@@ -152,7 +152,7 @@ export default function Home() {
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
                 size="lg"
               >
-                <a href="#projects" className="flex items-center gap-2">
+                <a href="#projects" className="flex items-center gap-2" style={{color: '#000000'}}>
                   View My Work
                 </a>
               </Button>
@@ -376,7 +376,7 @@ export default function Home() {
                 size="lg"
               >
                 <Mail className="w-4 h-4" />
-                <a href="mailto:pakorn269@gmail.com">Email Me</a>
+                <a href="mailto:pakorn269@gmail.com" style={{color: '#000000'}}>Email Me</a>
               </Button>
               <Button
                 variant="outline"
